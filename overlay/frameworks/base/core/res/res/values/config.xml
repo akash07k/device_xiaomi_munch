@@ -529,5 +529,12 @@
     <!-- Default refresh rate in the zone defined by brightness and ambient thresholds.
          If non-positive, then the refresh rate is unchanged even if thresholds are configured. -->
     <integer name="config_defaultRefreshRateInZone">120</integer>
+    
+     <!-- The list of package IDs that are allowed to use aux cameras.
+         NOTE: If this list is empty then all apps will be able to use aux cameras. -->
+    <string-array name="config_cameraAuxPackageAllowList" translatable="false">
+        <item>org.lineageos.aperture</item>
+        <item>org.lineageos.aperture.dev</item>
+    </string-array>
 
 </resources>
