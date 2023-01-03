@@ -14,7 +14,6 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Firmware
 -include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
-
 DEVICE_PATH := device/xiaomi/munch
 
 BUILD_BROKEN_DUP_RULES := true
