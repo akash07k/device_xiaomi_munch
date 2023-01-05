@@ -45,9 +45,13 @@
     <dimen name="status_bar_header_height_keyguard">@dimen/navigation_side_padding</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">7dp</dimen>
 
+    <dimen name="status_bar_padding_top">5dp</dimen>
+    
     <!-- Starting padding for a left-aligned status bar clock -->
     <dimen name="status_bar_left_clock_starting_padding">7dp</dimen>
-
+    
+     <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">7dp</dimen>
+    
 </resources>
