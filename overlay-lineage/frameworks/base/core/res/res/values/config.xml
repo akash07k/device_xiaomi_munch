@@ -24,5 +24,5 @@
     <bool name="config_ledCanPulse">false</bool>
 
     <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>
+    <bool name="config_pocketModeSupported">false</bool>
 </resources>
